@@ -4,16 +4,16 @@ namespace AngularProjectAssignment.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class FoodNetworkController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<FoodNetworkController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public FoodNetworkController(ILogger<FoodNetworkController> logger)
         {
             _logger = logger;
         }
